@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Search Videos</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+        <script src="javascript/script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <h1>Search<span>Videos</span></h1>
+            <p>Search all youtube videos</p>
+        </header>
+        <section>
+            <form id="searchForm" name="searchForm" onsubmit="return search()">
+                <div class = "fieldContainer">
+                    <input type="search" id="query" class="searchField" placeholder="Search Youtube Videos" />
+                    <input type= "submit" name="searchBtn" id="searchBtn" value="" />
+                </div>
+            </form>
+
+            <ul id="results"></ul>
+            <div id = "buttons"></div>
+        </section>
+        <footer>
+            <p> Copyright &copy;2017 All Rights Reserved</p>
+        </footer>
+        </div>
+    </body>
+</html>
