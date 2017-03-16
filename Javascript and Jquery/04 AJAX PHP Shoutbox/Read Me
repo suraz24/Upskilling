@@ -1,0 +1,3 @@
+This application requires a server. I used local server using xampp. All these files should go into the htdocs folder in the xampp.
+So depending on where you have installed xampp, go to xampp folder, open htdocs folder. Create a new folder (preferably jsshoutbox).
+Copy all these files and folders to that folder.
